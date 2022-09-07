@@ -127,7 +127,7 @@ app.use(notFound);
 
 app.use(handleErrors);
 const PORT = process.env.PORT;
-console.log(PORT);
+console.log("Este es el puerto donde estoy funcionado", PORT);
 const server = app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
